@@ -1434,7 +1434,7 @@ minus.onclick = function( event ) {
 }
 
 
-if ( navigator.connection.type !== 'none' ) {
+if ( navigator?.connection?.type !== 'none' ) {
 
 	if ( ( localStorage.getItem( 'index_get_info' ) !== null ) && ( +localStorage.getItem( 'now_year' ) === now_year ) ) {
 	                    
