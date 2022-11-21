@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> 
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Haribol</title>
+    </head>
+    
+    <body>
+        <div id="error_span" 
+             class="pos-fixed"
+             style="width: 100%;
+                    left: 0;
+                    top: 0;
+                    background-color: #fff;
+                    /* padding: 3px 6px;  */
+                    margin-bottom: 50px;
+                    z-index: 1000";>
+        </div>
+        <div id="list_all_years" class="pos-fixed text-white">
+            <i id="close_list_years" class="pos-abs fas fa-times fa-lg"></i>
+            <div id="div_list_all_years" class="d-flex text-center"></div>
+        </div>
+
+        <main id="calendar" class="pos-rel">
+            <div id="plus_block"></div>
+            <h1 class="year_select_date m-b-0"></h1>
+            <div class="calendar_year d-flex">
+                <ul class="jan"></ul>
+                <ul class="feb"></ul>
+                <ul class="mar"></ul>
+                <ul class="apr"></ul>
+                <ul class="may"></ul>
+                <ul class="jun"></ul>
+                <ul class="jul"></ul>
+                <ul class="aug"></ul>
+                <ul class="sem"></ul>
+                <ul class="oct"></ul>
+                <ul class="nov"></ul>
+                <ul class="dem"></ul>
+            </div>
+            <h1 class="year_select_date m-b-0"></h1>
+            <div class="calendar_year d-flex">
+                <ul class="jan"></ul>
+                <ul class="feb"></ul>
+                <ul class="mar"></ul>
+                <ul class="apr"></ul>
+                <ul class="may"></ul>
+                <ul class="jun"></ul>
+                <ul class="jul"></ul>
+                <ul class="aug"></ul>
+                <ul class="sem"></ul>
+                <ul class="oct"></ul>
+                <ul class="nov"></ul>
+                <ul class="dem"></ul>
+            </div>
+            <h1 class="year_select_date m-b-0"></h1>
+            <div class="calendar_year d-flex">
+                <ul class="jan"></ul>
+                <ul class="feb"></ul>
+                <ul class="mar"></ul>
+                <ul class="apr"></ul>
+                <ul class="may"></ul>
+                <ul class="jun"></ul>
+                <ul class="jul"></ul>
+                <ul class="aug"></ul>
+                <ul class="sem"></ul>
+                <ul class="oct"></ul>
+                <ul class="nov"></ul>
+                <ul class="dem"></ul>
+            </div>
+            <div id="height_footer"></div>
+        </main>
+
+        <div class="pos-fixed div_zoom_calendar">
+            <i id="plus" class="fas fa-search-plus zoom_show d-block pos-abs"></i>
+            <i id="minus" class="fas fa-search-minus zoom_hide d-block pos-abs"></i>
+        </div>
+
+        <nav></nav>
+        
+        <script src="cordova.js"></script>
+        <script src="js/general.js"></script>
+        <script src="js/select_date.js"></script>
+    </body>
+</html>

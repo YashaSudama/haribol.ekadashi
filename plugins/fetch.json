@@ -21,7 +21,9 @@
       "id": "cordova-plugin-geolocation@4.1.0"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "GPS_REQUIRED": "true"
+    }
   },
   "cordova-plugin-ionic-keyboard": {
     "source": {
@@ -69,6 +71,14 @@
       "id": "cordova-plugin-splashscreen@6.0.0"
     },
     "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-add-swift-support": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-add-swift-support@2.0.2"
+    },
+    "is_top_level": false,
     "variables": {}
   }
 }
