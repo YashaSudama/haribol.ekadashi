@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517283948809",
+    "project_id": "haribol-ekadashi-883ad",
+    "storage_bucket": "haribol-ekadashi-883ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517283948809:android:1bb53ad3cb850c2cd80bd8",
+        "android_client_info": {
+          "package_name": "haribol.ekadashi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517283948809-ad34ud6e3gabgimli2fg91minin7m6d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeDZeMA1IH2-K70wi_ZCrrlQq0hRJL2Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517283948809-ad34ud6e3gabgimli2fg91minin7m6d4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

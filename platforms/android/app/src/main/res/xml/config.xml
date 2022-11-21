@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="haribol.ekadashi.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Permissions">
+        <param name="android-package" value="com.android.plugins.Permissions" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="CDVIonicKeyboard">
+        <param name="android-package" onload="true" value="io.ionic.keyboard.CDVIonicKeyboard" />
+    </feature>
+    <feature name="PushNotification">
+        <param name="android-package" value="com.notifications.plugin.Notifications" />
+    </feature>
+    <feature name="RequestLocationAccuracy">
+        <param name="android-package" value="cordova.plugin.RequestLocationAccuracy" />
+    </feature>
+    <name>Харибол Экадаши</name>
+    <description>
+        Экадаши и Вайшнавские праздники
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Goorananda dasi
+    </author>
+    <content src="index.html" />
+    <allow-navigation href="https://api.opencagedata.com/*" />
+    <allow-navigation href="https://ekadashi.admin.universl.top/*" />
+    <access origin="https://api.opencagedata.com/" />
+    <access origin="https://ekadashi.admin.universl.top/" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <splash density="hdpi" src="www/img/screen/android/splash-port-hdpi.jpg" />
+    <splash density="ldpi" src="www/img/screen/android/splash-port-ldpi.jpg" />
+    <splash density="mdpi" src="www/img/screen/android/splash-port-mdpi.jpg" />
+    <splash density="xhdpi" src="www/img/screen/android/splash-port-xhdpi.jpg" />
+    <splash density="xxhdpi" src="www/img/screen/android/splash-port-xxhdpi.jpg" />
+    <splash density="land-hdpi" src="www/img/screen/android/splash-land-hdpi.jpg" />
+    <splash density="land-ldpi" src="www/img/screen/android/splash-land-ldpi.jpg" />
+    <splash density="land-mdpi" src="www/img/screen/android/splash-land-mdpi.jpg" />
+    <splash density="land-xhdpi" src="www/img/screen/android/splash-land-xhdpi.jpg" />
+    <splash density="land-xxhdpi" src="www/img/screen/android/splash-land-xxhdpi.jpg" />
+    <splash density="land-xxxhdpi" src="www/img/screen/android/splash-land-xxxhdpi.jpg" />
+    <splash density="port-hdpi" src="www/img/screen/android/splash-port-hdpi.jpg" />
+    <splash density="port-ldpi" src="www/img/screen/android/splash-port-ldpi.jpg" />
+    <splash density="port-mdpi" src="www/img/screen/android/splash-port-mdpi.jpg" />
+    <splash density="port-xhdpi" src="www/img/screen/android/splash-port-xhdpi.jpg" />
+    <splash density="port-xxhdpi" src="www/img/screen/android/splash-port-xxhdpi.jpg" />
+    <splash density="port-xxxhdpi" src="www/img/screen/android/splash-port-xxxhdpi.jpg" />
+    <icon density="ldpi" src="www/img/logo/android/logo_ldpi.png" />
+    <icon density="mdpi" src="www/img/logo/android/logo_mdpi.png" />
+    <icon density="hdpi" src="www/img/logo/android/logo_hdpi.png" />
+    <icon density="xhdpi" src="www/img/logo/android/logo_xhdpi.png" />
+    <icon density="xxhdpi" src="www/img/logo/android/logo_xxhdpi.png" />
+    <icon density="xxxhdpi" src="www/img/logo/android/logo_xxxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashScreenSpinnerColor" value="white" />
+</widget>

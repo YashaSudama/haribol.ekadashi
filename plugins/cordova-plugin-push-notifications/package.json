@@ -1,0 +1,55 @@
+{
+  "_from": "cordova-plugin-push-notifications",
+  "_id": "cordova-plugin-push-notifications@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-GqNXaPinxLkIZf27z90FtfCxRhkfCiKddVvETP4RhiAn2rSKXOh+6zZTwdK/z77VlVdRp4REPeEKaLW2pz5kTQ==",
+  "_location": "/cordova-plugin-push-notifications",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-push-notifications",
+    "name": "cordova-plugin-push-notifications",
+    "escapedName": "cordova-plugin-push-notifications",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-push-notifications/-/cordova-plugin-push-notifications-1.0.2.tgz",
+  "_shasum": "67dad1fb24745904421626a2365c1f40ac583bed",
+  "_spec": "cordova-plugin-push-notifications",
+  "_where": "D:\\Desktop\\Yasha\\Sites and another\\Mobil_application\\Cordova\\haribol.ekadashi.app",
+  "author": {
+    "name": "maxim.kolmogorov@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Maxim-Kolmogorov/cordova-plugin-push-notifications/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-push-notifications",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Push Notification for iOS (Swift) and Android (Java)",
+  "homepage": "https://github.com/Maxim-Kolmogorov/cordova-plugin-push-notifications#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-push-notifications",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxim-Kolmogorov/cordova-plugin-push-notifications.git"
+  },
+  "version": "1.0.2"
+}

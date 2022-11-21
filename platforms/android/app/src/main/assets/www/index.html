@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data:"> 
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Haribol</title>
+    </head>
+    
+    <body>
+        <div id="window_select_city" class="pos-fixed">
+            <div class="main m-auto text-center pos-rel">
+                <div class="l-height-1-1 m-b-10">
+                    <label for="form_search" id="span_search_city" class="d-block m-b-5 m-auto">Введите Ваш или ближайший к Вам населенный пункт:</label>
+                    <input id="form_search" type="search" placeholder="Начните ввод"><br>
+                </div>
+                <div id="div_search_city" class="m-auto"></div>
+                <div class="policy l-height-1-25">
+                    <span class="l-height-1-1">
+                        <a id="current_location" class="d-block m-auto p-b-5 width-fit">Текущее местоположение</a>
+                        <a class="link_policy d-block m-auto m-b-10 p-b-5 width-fit" href="privacy_policy.html">Политика конфиденциальности</a>
+                        <a id="history" class="link_policy d-block m-auto m-b-10 p-b-5 width-fit">Вернуться</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="window_change_city" class="pos-fixed">
+           <div class="main m-auto pos-rel l-height-1-25">
+               <span class="d-block">Ранее Ваше местоположение было определено как - <h4 id="local_city" class="m-b-10 m-t-5 d-block"></h4></span>
+               <span class="d-block">Хотите сменить местоположение?</span>
+               <div class="change_buttons m-b-20 d-flex m-t-5">
+                   <button id="yes_change_city" class="bold text-white">Да</button>
+                   <button id="no_change_city" class="bold text-white">Нет</button>
+               </div>
+               <span class="not_window d-block">Если Вы не хотите, чтобы появлялось это окно, то выберите Ваше местоположение через
+                    <span class="width-fit m-t-5 d-block">Меню <i class="fas fa-long-arrow-alt-right pos-rel"></i> Выбор города</span>
+               </span>
+           </div> 
+        </div>
+
+        <div id="message_not_city" class="pos-fixed l-height-1-25"></div>
+        <div id="message_notifications" class="pos-fixed l-height-1-25"></div>
+
+        <div id="list_cityes" class="pos-abs d-none text-white">
+            <i id="close_list" class="pos-fixed fas fa-times fa-lg"></i>
+        </div>
+
+        <nav></nav>
+
+        <script src="cordova.js"></script>
+        <script src="js/general.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
