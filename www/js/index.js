@@ -1997,7 +1997,7 @@ function on_error( error ) {
 
 function on_device_ready() {
 
-    if ( navigator.connection.type !== 'none' ) {
+    if ( navigator?.connection?.type !== 'none' ) {
 
         cordova.plugins.locationAccuracy.canRequest( function( canRequest ) {
 
