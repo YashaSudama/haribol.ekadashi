@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="haribol.ekadashi.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Харибол Экадаши</name>
+    <description>
+        Экадаши и Вайшнавские праздники
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Goorananda dasi
+    </author>
+    <content src="index.html" />
+    <allow-navigation href="https://api.opencagedata.com/*" />
+    <allow-navigation href="https://ekadashi.admin.universl.top/*" />
+    <access origin="https://api.opencagedata.com/" />
+    <access origin="https://ekadashi.admin.universl.top/" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="AndroidXEnabled" value="true" />
+
+        <splash src="www/img/screen/android/splash-port-hdpi.jpg" density="hdpi"/>
+        <splash src="www/img/screen/android/splash-port-ldpi.jpg" density="ldpi"/>
+        <splash src="www/img/screen/android/splash-port-mdpi.jpg" density="mdpi"/>
+        <splash src="www/img/screen/android/splash-port-xhdpi.jpg" density="xhdpi"/>
+        <splash src="www/img/screen/android/splash-port-xxhdpi.jpg" density="xxhdpi"/>
+
+        <!-- Landscape -->
+        <splash src="www/img/screen/android/splash-land-hdpi.jpg" density="land-hdpi" />
+        <splash src="www/img/screen/android/splash-land-ldpi.jpg" density="land-ldpi" />
+        <splash src="www/img/screen/android/splash-land-mdpi.jpg" density="land-mdpi" />
+        <splash src="www/img/screen/android/splash-land-xhdpi.jpg" density="land-xhdpi" />
+        <splash src="www/img/screen/android/splash-land-xxhdpi.jpg" density="land-xxhdpi" />
+        <splash src="www/img/screen/android/splash-land-xxxhdpi.jpg" density="land-xxxhdpi" />
+
+        <!-- Portrait -->
+        <splash src="www/img/screen/android/splash-port-hdpi.jpg" density="port-hdpi" />
+        <splash src="www/img/screen/android/splash-port-ldpi.jpg" density="port-ldpi" />
+        <splash src="www/img/screen/android/splash-port-mdpi.jpg" density="port-mdpi" />
+        <splash src="www/img/screen/android/splash-port-xhdpi.jpg" density="port-xhdpi" />
+        <splash src="www/img/screen/android/splash-port-xxhdpi.jpg" density="port-xxhdpi" />
+        <splash src="www/img/screen/android/splash-port-xxxhdpi.jpg" density="port-xxxhdpi" />
+
+        <icon src="www/img/logo/android/logo_ldpi.png" density="ldpi" />
+        <icon src="www/img/logo/android/logo_mdpi.png" density="mdpi" />
+        <icon src="www/img/logo/android/logo_hdpi.png" density="hdpi" />
+        <icon src="www/img/logo/android/logo_xhdpi.png" density="xhdpi" />
+        <icon src="www/img/logo/android/logo_xxhdpi.png" density="xxhdpi" />
+        <icon src="www/img/logo/android/logo_xxxhdpi.png" density="xxxhdpi" />
+
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="SplashScreenSpinnerColor" value="white" />
+
+    </platform>
+
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+
+</widget>
